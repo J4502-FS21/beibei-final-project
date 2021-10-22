@@ -1,5 +1,5 @@
 .h1-index {
-    background-image:url("bg-for-final-project4502.jpg");
+    background-image:url(bg-for-final-project4502.jpg);
     background-color: #cccccc;
     height: 300px;
     background-position: center;
@@ -14,15 +14,39 @@
     font-size: 2.5rem;
     padding: 1rem;
     box-sizing: border-box;
+    margin:0;
 }
-
-
+.content {
+  background-color: #FAC322;
+  height: 60px;
+  border: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.ul{    display: flex;
+    justify-content: center;
+  }
+.li{
+  background-color: #FAC322;
+    height: 60px;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+#see-stories{
+      text-align: center;
+}
+.navigation{
+  list-style-type: none;
+  margin: 1em;
+}
 @media (max-width: 760px) {
 
 .h1-index {
   font-size:2.25rem;
-}
-
 }
 
 @media (max-width: 690px) {
