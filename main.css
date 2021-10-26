@@ -1,3 +1,6 @@
+body{
+  background-color: #C1BBB9;
+}
 .h1-index {
     background-image:url(bg-for-final-project4502.jpg);
     background-color: #cccccc;
@@ -10,8 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 10px #000000;
-    font-size: 2.5rem;
+    text-shadow: 2px 5px 10px #000000;
+    font-size: 3rem;
     padding: 1rem;
     box-sizing: border-box;
     margin:0;
@@ -24,30 +27,78 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  padding: 5px;
 }
 .databox{
   height: 160px;
   display: flex;
   justify-content: space-between;
+  padding:0;
+  margin-bottom: 0;
   }
 .data{
-    background-color: #CE390D;
-    list-style-type: none;
-    height: 140px;
-    width: 160px;
-    justify-content: center;
-    text-align: center;
-    background-image: url(arrow.jpg);
+  background-color: #CE390D;
+  list-style-type: none;
+  height: 140px;
+  width: 160px;
+  justify-content: center;
+  text-align: center;
+  background-image: url(arrow-down.png);
+  background-size: 100px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 0.5px black;
+  padding: 5px;
+  border: 3px dotted white;
+}
+#data-up{
+  background-color: #CE390D;
+  list-style-type: none;
+  height: 140px;
+  width: 160px;
+  justify-content: center;
+  text-align: center;
+  background-image: url(arrow-up.png);
+  background-size: 100px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 0.5px black;
+  padding: 5px;
+  border: 3px dotted white;
 }
 
 #see-stories{
       text-align: center;
+      padding:0;
+      margin:0;
 }
 #menu_nav{
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   background-color: #FAC322;
+  height: 30px;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+.navigation-{
+  align-items: center;
+}
+.text{
+  list-style-type: none;
+  font-size: 1.5em;
+  width: 350px;
+  text-align: justify;
+  padding-left: 0;
+}
+.img1{
+  padding-left: 50px;
+  padding-top: 50px;
 }
 a{
   color: #CE390D;
@@ -63,6 +114,16 @@ a:hover{
 }
 footer{
   justify-content: center;
+  border: 3px solid grey;
+}
+#page-design{
+  text-align: center;
+  color: grey;
+  margin:0;
+}
+#email{
+  text-align: center;
+  margin:0;
 }
 @media (max-width: 760px) {
 
