@@ -207,6 +207,14 @@ footer{
   max-width: 100%;
   border: 3px solid #FAC322;
 }
+.video-embed{
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+#video-main{
+  margin-bottom: 50px;
+}
 @media (max-width: 812px) {
   .explanation{
     flex-flow: column;
