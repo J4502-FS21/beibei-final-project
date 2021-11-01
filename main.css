@@ -215,6 +215,17 @@ footer{
 #video-main{
   margin-bottom: 50px;
 }
+#text-story{
+  max-width: 70%;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  flex-flow: column;
+}
+.paragraf1{
+  margin:auto;
+  padding-block: 10px;
+}
 @media (max-width: 812px) {
   .explanation{
     flex-flow: column;
