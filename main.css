@@ -236,6 +236,7 @@ footer{
   display: flex;
   justify-content: center;
   margin:auto;
+  max-width: 90%
 }
 #video-main{
   margin-bottom: 50px;
