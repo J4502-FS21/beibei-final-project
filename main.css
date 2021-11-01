@@ -22,6 +22,15 @@ body{
     margin:0;
     font-family: 'PT Serif Caption', serif;
 }
+.attribution{
+  background-color: grey;
+  font-size: 0.5em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
 .content {
   background-color: #FAC322;
   height: 60px;
