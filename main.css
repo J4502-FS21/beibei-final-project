@@ -247,6 +247,7 @@ footer{
 .paragraf1{
   margin:auto;
   padding-block: 10px;
+  margin-left: 0;
 }
 .insert-pic{
   max-width: 70%;
