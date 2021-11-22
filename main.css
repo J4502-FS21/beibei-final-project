@@ -263,6 +263,38 @@ footer{
   display: block;
   font-size: 0.75em;
 }
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.imageHolder {
+  margin: 20px 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.imageHolder caption {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv {
+  display: none;
+}
+
 @media (max-width: 812px) {
   .explanation{
     flex-flow: column;
